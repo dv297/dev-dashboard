@@ -1,0 +1,17 @@
+
+
+:local {
+  .card {
+    margin: 10px 20px 10px 20px;
+    min-height: 100px;
+    background-color: red;
+
+    &[data-selected="true"] {
+      background-color: #eee !important;
+    }
+  }
+
+  .open-crucible-icon {
+    float: right;
+  }
+}

@@ -1,0 +1,6 @@
+doctype html
+html(lang="en")
+    head
+        script.
+          var uri = window.location.hash.substr(1)
+          window.location.href = "auth/openid?redirect=" + uri

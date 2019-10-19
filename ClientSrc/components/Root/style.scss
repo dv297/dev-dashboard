@@ -1,0 +1,33 @@
+:global {
+  *, *:before, *:after {
+    box-sizing: border-box;
+  }
+}
+
+:local {
+  .root {
+    box-sizing: border-box;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .task-workflow-container {
+    display: flex;
+    flex-direction: row;
+    flex: 20;
+    order: 2;
+  }
+
+  .task-card-list-container {
+    flex: 1;
+    order: 1;
+    overflow: auto;
+  }
+
+  .task-summary-dialog-container {
+    flex: 3;
+    order: 2;
+  }
+}

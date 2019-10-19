@@ -1,0 +1,39 @@
+
+
+:local {
+  .circle {
+    float: left;
+    width: 15px;
+    height: 15px;
+    line-height: 200px;
+    border-radius: 50%; /* the magic */
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-right: 20px;
+  }
+
+  .NOT_ON_REVIEW {
+    background-color: #9E9E9E;
+  }
+
+  .READY_TO_REVIEW {
+    background-color: #F44336;
+  }
+
+  .IN_PROGRESS {
+    background-color: #2196F3;
+  }
+
+  .WAITING_FOR_AUTHOR {
+    background-color: #F9A825;
+  }
+
+  .COMPLETE {
+    background-color: #4CAF50;
+  }
+}

@@ -1,0 +1,14 @@
+:local {
+  .navigation-container {
+    margin-left: 50px;
+    flex: 1;
+    order: 1;
+    z-index: 1000;
+  }
+
+  .side-drawer {
+    position: relative;
+    width: 50px;
+  }
+}
+

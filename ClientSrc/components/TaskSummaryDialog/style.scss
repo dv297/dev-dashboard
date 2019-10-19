@@ -1,0 +1,59 @@
+.task-summary-dialog {
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.no-active-task-container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.task-summary-dialog a, .task-summary-dialog a:visited  {
+  color: #222;
+  text-decoration: none;
+}
+
+.task-summary-dialog a:hover  {
+  text-decoration: underline;
+}
+
+.task-detail-name {
+  font-size: 200%;
+  margin-bottom: 10px;
+}
+
+.task-detail-description {
+  font-size: 120%;
+  margin-bottom: 10px;
+}
+
+.reviewer-summary-container, .task-comment-list-container {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.reviewer-summary-container {
+  order: 2;
+}
+
+.task-details-reviewer-summary-header {
+  font-size: 120%;
+}
+
+.add-comment-form-container {
+  order: 3;
+}
+
+.task-comment-list-container {
+  flex: 1;
+  order: 4;
+}
+
+.reviewer-summary-container, .task-comment-list-container {
+  margin-bottom: 50px;
+}
